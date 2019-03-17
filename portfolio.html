@@ -1,96 +1,151 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Tangerine" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Main</title>
 </head>
+
 <body>
     <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><span class="in">Halina Zmachynskaya </span><i class="fas fa-laptop ml-2" style="color: #8CDEE5; font-size: 18px;" ></i></a>   
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#"><span class="in">Halina Zmachynskaya </span><i class="fas fa-laptop ml-2"
+                style="color: #8CDEE5; font-size: 18px;"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">        
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>    
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <div class="jumbotron" style="height: 130px;">
-        <h4 ><i class="fas fa-file-alt mr-2" style="font-size: 16px; color: #93DFE5"></i></span>My Portfolio </h4>
-        <hr>                 
+    <div class="container">
+        <h4><i class="fas fa-file-alt mr-2 mt-5" style="font-size: 16px; color: #93DFE5"></i></span>My Portfolio</h4>
+        <hr>
     </div>
 
     <div class="container">
         <!--first row-->
         <div class="row">
-            <div class="col-md-4 col-lg-3">
+            <div class="col-sm-6 col-md-4">
                 <div class="card">
                     <img class="card-img-top" src="assets/images/XConvert2.png" alt="">
                     <div class="card-body">
                         <h6 class="card-title">Web Admin</h6>
                         <hr>
-                        <p class="card-text">A web hub for working with cases received from multiple carriers to track day-to-day processing </p>
+                        <p class="card-text">A web hub for working with insurance cases received from multiple carriers to track
+                            day-to-day processing. </p>
                     </div>
-                </div>    
-            </div> 
-            <div class="col-md-4 col-lg-3">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="assets/images/OneStepProject.jpg" alt="">
+                    <img class="card-img-top" src="assets/images/One_step_cropped.jpg" alt="">
                     <div class="card-body">
                         <h6 class="card-title">One Step</h6>
                         <hr>
-                        <p class="card-text">A web app to create XML cases, print images and send cases to various carriers</p>
+                        <p class="card-text">A web app to create XML cases, print images and send cases to various
+                            carriers.</p>
                     </div>
-                </div>          
-            </div> 
-            <div class="col-md-4 col-lg-3">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
                 <div class="card">
                     <img class="card-img-top" src="assets/images/XConvert_s.png" alt="" width="150">
                     <div class="card-body">
                         <h6 class="card-title">XConvert</h6>
                         <hr>
-                        <p class="card-text">ETL pipelines to process multiple XML files in real time, parse, transform and load the data to the db </p>
+                        <p class="card-text">ETL pipelines to process XML files with insurance cases from dosens of insurance carriers in real time, parse, transform
+                            and load the data to the db. </p>
                     </div>
-                </div>          
-            </div> 
-            <div class="col-md-4 col-lg-3">
-                    <div class="card">
-                        <img class="card-img-top" src="assets/images/etre.jpg" alt="">
-                        <div class="card-body">
-                            <h6 class="card-title">Etre Belle</h6>
-                            <hr>
-                            <p class="card-text">Web site for a cosmetic company representative</p>
-                        </div>
-                    </div>                       
-               
                 </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/Screenshot_sm.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">Myazaki Moments</h6>
+                        <a href="https://haldevel.github.io/GifTastic/index.html" style="color: #388a8e;">See the project</a><br>
+                        <a href="https://github.com/Haldevel/GifTastic" style="color: #388a8e;">See the code</a>
+                        <hr>
+                        <p class="card-text">The web app uses Giphy API to retrieve ten gif images of Miyazaki movies,
+                            which names are displayed on the buttons generated by the app. When a user clicks on each
+                            gif, the source of the image is switched to the animated version of the gif, and with an
+                            impression that the image moves on a mouse click. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/CrystalCollector_sm.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">Crystals Collector Game</h6>
+                        <a href="https://haldevel.github.io/unit-4-game/" style="color: #388a8e;">See the project</a><br>
+                        <a href="https://github.com/Haldevel/unit-4-game" style="color: #388a8e;">See the code</a>
+                        <hr>
+                        <p class="card-text">The web app is a guessing game when a user have to match the number
+                            randomly generated by a computer by pressing on the crystals images. All the crystals will
+                            have four randomly generated hidden values from 1 to 12, and the sum of the values of the
+                            crystals should exactly match the number generated by the computer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/what2grow_sm.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">what2grow</h6>
+                        <a href="https://ehager77.github.io/what2grow/" style="color: #165f63;">See the project</a><br>
+                        <a href="https://github.com/ehager77/what2grow" style="color: #165f63;">See the code</a>
+                        <hr>
+                        <p class="card-text">This is a web application designed to help amateur gardeners make informed
+                            decisions about the plants they choose to grow. With help of autocomplete, the user types in
+                            a crop or plant of their choice. The app will provide the first suitable month and the
+                            optimal month for the plant to grow based on the user's geolocation, as well on the
+                            historical daily min, max, and mean temperatures for 2015-2018 years, received from aWhere
+                            API. The web app is a product of collaboration between four people. </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <footer>
         <div class="container">
-          Copyright &copy; 
+            Copyright &copy;
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
