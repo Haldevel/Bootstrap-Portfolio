@@ -3,6 +3,7 @@
     font-size: 1.8rem;
     font-weight: 900;  
     color: #8CDEE5;
+   /*  color: #; */
 }
 
 .hr-color {
@@ -36,12 +37,11 @@ footer {
     padding: 10px 0;
     margin-top: 40px;
     /* clear: both; */
-    font-size: 12px;
-    color: #a1a1a1;   
+    font-size: 12px; 
     text-align: center;
-    background: #e0e0e0;
+    color: white;
+    background-color: #388a8e;
     border-bottom: 2px solid rgb( #8CDEE5);
-    height: 42px;
     width: 100%;
     /* margin: 0 auto; */  
 }
