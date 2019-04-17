@@ -58,6 +58,15 @@ footer {
     background-color: #EEE;
 }
 
+p {
+    font-size: 0.8rem;
+}
+
+.milk-bckgr {
+ /*    background-color: #f1eff0; */
+ background-color: #f3f1f2;
+}
+
 
 
   
